@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/kahinaayouni/IdeaProjects/PracticeMaven/Delta_Airline/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-06-13T21:40:09 EDT" name="Delta_Airline Automation Script" finished-at="2020-06-13T21:41:52 EDT" duration-ms="102778">
+    <groups>
+    </groups>
+    <test started-at="2020-06-13T21:40:09 EDT" name="Delta_AirlineHomePage" finished-at="2020-06-13T21:41:52 EDT" duration-ms="102778">
+      <class name="hometest.Delta_AirlineHomeTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:09 EDT" name="extentSetup" finished-at="2020-06-13T21:40:09 EDT" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@36cc9385]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/kahinaayouni/IdeaProjects/PracticeMaven/Delta_Airline/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:09 EDT" name="setUp" finished-at="2020-06-13T21:40:12 EDT" duration-ms="2810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:12 EDT" name="startExtent" finished-at="2020-06-13T21:40:12 EDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hometest.Delta_AirlineHomeTest.testDeltaCarriersSearchPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testDeltaCarriersSearchPage()[pri:1, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:12 EDT" name="testDeltaCarriersSearchPage" finished-at="2020-06-13T21:40:16 EDT" duration-ms="3207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeltaCarriersSearchPage -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:16 EDT" name="afterEachTestMethod" finished-at="2020-06-13T21:40:16 EDT" duration-ms="318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeltaCarriersSearchPage status=SUCCESS method=Delta_AirlineHomeTest.testDeltaCarriersSearchPage()[pri:1, instance:hometest.Delta_AirlineHomeTest@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:16 EDT" name="cleanUp" finished-at="2020-06-13T21:40:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:16 EDT" name="setUp" finished-at="2020-06-13T21:40:18 EDT" duration-ms="2341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckNotifications()[pri:2, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:18 EDT" name="testCheckNotifications" finished-at="2020-06-13T21:40:22 EDT" duration-ms="3774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckNotifications -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:18 EDT" name="startExtent" finished-at="2020-06-13T21:40:18 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hometest.Delta_AirlineHomeTest.testCheckNotifications() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:22 EDT" name="afterEachTestMethod" finished-at="2020-06-13T21:40:22 EDT" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckNotifications status=SUCCESS method=Delta_AirlineHomeTest.testCheckNotifications()[pri:2, instance:hometest.Delta_AirlineHomeTest@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:22 EDT" name="cleanUp" finished-at="2020-06-13T21:40:22 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:22 EDT" name="setUp" finished-at="2020-06-13T21:40:24 EDT" duration-ms="2051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckFlightStatus()[pri:3, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:24 EDT" name="testCheckFlightStatus" finished-at="2020-06-13T21:40:29 EDT" duration-ms="5201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFlightStatus -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:24 EDT" name="startExtent" finished-at="2020-06-13T21:40:24 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hometest.Delta_AirlineHomeTest.testCheckFlightStatus() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:29 EDT" name="afterEachTestMethod" finished-at="2020-06-13T21:40:29 EDT" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckFlightStatus status=SUCCESS method=Delta_AirlineHomeTest.testCheckFlightStatus()[pri:3, instance:hometest.Delta_AirlineHomeTest@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:29 EDT" name="cleanUp" finished-at="2020-06-13T21:40:29 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:29 EDT" name="setUp" finished-at="2020-06-13T21:40:32 EDT" duration-ms="2217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:32 EDT" name="startExtent" finished-at="2020-06-13T21:40:32 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hometest.Delta_AirlineHomeTest.testSearchButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testSearchButton()[pri:4, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:32 EDT" name="testSearchButton" finished-at="2020-06-13T21:40:35 EDT" duration-ms="3038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchButton -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:35 EDT" name="afterEachTestMethod" finished-at="2020-06-13T21:40:35 EDT" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchButton status=SUCCESS method=Delta_AirlineHomeTest.testSearchButton()[pri:4, instance:hometest.Delta_AirlineHomeTest@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:35 EDT" name="setUp" finished-at="2020-06-13T21:40:47 EDT" duration-ms="12116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:35 EDT" name="cleanUp" finished-at="2020-06-13T21:40:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:47 EDT" name="startExtent" finished-at="2020-06-13T21:40:47 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hometest.Delta_AirlineHomeTest.testScrollDown() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testScrollDown()[pri:5, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:40:47 EDT" name="testScrollDown" finished-at="2020-06-13T21:41:19 EDT" duration-ms="32316" status="FAIL">
+          <exception class="org.openqa.selenium.ScriptTimeoutException">
+            <message>
+              <![CDATA[script timeout
+  (Session info: chrome=83.0.4103.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'kahinas-MBP.fios-router.home', ip: 'fe80:0:0:0:1487:c375:8184:71ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/s2/jkfjw_0s03z...}, goog:chromeOptions: {debuggerAddress: localhost:49770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d47a67ac55f030b8795b32bf2c8a729f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ScriptTimeoutException: script timeout
+  (Session info: chrome=83.0.4103.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'kahinas-MBP.fios-router.home', ip: 'fe80:0:0:0:1487:c375:8184:71ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/s2/jkfjw_0s03z...}, goog:chromeOptions: {debuggerAddress: localhost:49770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d47a67ac55f030b8795b32bf2c8a729f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.executeAsyncScript(RemoteWebDriver.java:506)
+at homepage.Delta_AirlineHomePage.scrollDown(Delta_AirlineHomePage.java:129)
+at hometest.Delta_AirlineHomeTest.testScrollDown(Delta_AirlineHomeTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ScriptTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollDown -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:19 EDT" name="afterEachTestMethod" finished-at="2020-06-13T21:41:20 EDT" duration-ms="630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScrollDown status=FAILURE method=Delta_AirlineHomeTest.testScrollDown()[pri:5, instance:hometest.Delta_AirlineHomeTest@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:20 EDT" name="cleanUp" finished-at="2020-06-13T21:41:20 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:20 EDT" name="setUp" finished-at="2020-06-13T21:41:22 EDT" duration-ms="2105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:22 EDT" name="startExtent" finished-at="2020-06-13T21:41:22 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hometest.Delta_AirlineHomeTest.testGetTextFromWebElements()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testGetTextFromWebElements()[pri:6, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:22 EDT" name="testGetTextFromWebElements" finished-at="2020-06-13T21:41:33 EDT" duration-ms="10499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTextFromWebElements -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:33 EDT" name="afterEachTestMethod" finished-at="2020-06-13T21:41:33 EDT" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetTextFromWebElements status=SUCCESS method=Delta_AirlineHomeTest.testGetTextFromWebElements()[pri:6, instance:hometest.Delta_AirlineHomeTest@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:33 EDT" name="setUp" finished-at="2020-06-13T21:41:35 EDT" duration-ms="2345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:33 EDT" name="cleanUp" finished-at="2020-06-13T21:41:33 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="testUseMouseHover()[pri:7, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:35 EDT" name="testUseMouseHover" finished-at="2020-06-13T21:41:40 EDT" duration-ms="4987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUseMouseHover -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:35 EDT" name="startExtent" finished-at="2020-06-13T21:41:35 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hometest.Delta_AirlineHomeTest.testUseMouseHover() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:40 EDT" name="afterEachTestMethod" finished-at="2020-06-13T21:41:40 EDT" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUseMouseHover status=SUCCESS method=Delta_AirlineHomeTest.testUseMouseHover()[pri:7, instance:hometest.Delta_AirlineHomeTest@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:40 EDT" name="cleanUp" finished-at="2020-06-13T21:41:40 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:40 EDT" name="setUp" finished-at="2020-06-13T21:41:42 EDT" duration-ms="2229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:42 EDT" name="startExtent" finished-at="2020-06-13T21:41:42 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hometest.Delta_AirlineHomeTest.testHandleAlertPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testHandleAlertPage()[pri:8, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:42 EDT" name="testHandleAlertPage" finished-at="2020-06-13T21:41:43 EDT" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHandleAlertPage -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:43 EDT" name="afterEachTestMethod" finished-at="2020-06-13T21:41:44 EDT" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHandleAlertPage status=SUCCESS method=Delta_AirlineHomeTest.testHandleAlertPage()[pri:8, instance:hometest.Delta_AirlineHomeTest@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:44 EDT" name="setUp" finished-at="2020-06-13T21:41:46 EDT" duration-ms="2202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:44 EDT" name="cleanUp" finished-at="2020-06-13T21:41:44 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:46 EDT" name="startExtent" finished-at="2020-06-13T21:41:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hometest.Delta_AirlineHomeTest.testUseCheckBoxButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testUseCheckBoxButton()[pri:9, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:46 EDT" name="testUseCheckBoxButton" finished-at="2020-06-13T21:41:49 EDT" duration-ms="2998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUseCheckBoxButton -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:49 EDT" name="afterEachTestMethod" finished-at="2020-06-13T21:41:49 EDT" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUseCheckBoxButton status=SUCCESS method=Delta_AirlineHomeTest.testUseCheckBoxButton()[pri:9, instance:hometest.Delta_AirlineHomeTest@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:49 EDT" name="cleanUp" finished-at="2020-06-13T21:41:49 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:49 EDT" name="setUp" finished-at="2020-06-13T21:41:51 EDT" duration-ms="2163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:51 EDT" name="startExtent" finished-at="2020-06-13T21:41:51 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hometest.Delta_AirlineHomeTest.testReadDeltaLogoImage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testReadDeltaLogoImage()[pri:10, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:51 EDT" name="testReadDeltaLogoImage" finished-at="2020-06-13T21:41:52 EDT" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadDeltaLogoImage -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:52 EDT" name="afterEachTestMethod" finished-at="2020-06-13T21:41:52 EDT" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testReadDeltaLogoImage status=SUCCESS method=Delta_AirlineHomeTest.testReadDeltaLogoImage()[pri:10, instance:hometest.Delta_AirlineHomeTest@5b0abc94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:52 EDT" name="cleanUp" finished-at="2020-06-13T21:41:52 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:hometest.Delta_AirlineHomeTest@5b0abc94]" started-at="2020-06-13T21:41:52 EDT" name="generateReport" finished-at="2020-06-13T21:41:52 EDT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- hometest.Delta_AirlineHomeTest -->
+    </test> <!-- Delta_AirlineHomePage -->
+  </suite> <!-- Delta_Airline Automation Script -->
+</testng-results>

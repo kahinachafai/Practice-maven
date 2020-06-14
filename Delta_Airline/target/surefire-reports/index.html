@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Delta_Airline_Automation_Script" class="navigator-link">
+              <span class="suite-name border-failed">Delta_Airline Automation Script</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Delta_Airline_Automation_Script" class="navigator-link ">
+                    <span>Delta_AirlineTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Delta_Airline_Automation_Script" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Delta_Airline_Automation_Script" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Delta_Airline_Automation_Script" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Delta_Airline_Automation_Script" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Delta_Airline_Automation_Script" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Delta_Airline_Automation_Script" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Delta_Airline_Automation_Script" class="hide-methods failed suite-Delta_Airline_Automation_Script"> (hide)</a> <!-- hide-methods failed suite-Delta_Airline_Automation_Script -->
+                      <a href="#" panel-name="suite-Delta_Airline_Automation_Script" class="show-methods failed suite-Delta_Airline_Automation_Script"> (show)</a> <!-- show-methods failed suite-Delta_Airline_Automation_Script -->
+                    </span>
+                    <div class="method-list-content failed suite-Delta_Airline_Automation_Script">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Airline_Automation_Script" title="hometest.Delta_AirlineHomeTest" class="method navigator-link" hash-for-method="testScrollDown">testScrollDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Delta_Airline_Automation_Script -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Delta_Airline_Automation_Script" class="hide-methods passed suite-Delta_Airline_Automation_Script"> (hide)</a> <!-- hide-methods passed suite-Delta_Airline_Automation_Script -->
+                      <a href="#" panel-name="suite-Delta_Airline_Automation_Script" class="show-methods passed suite-Delta_Airline_Automation_Script"> (show)</a> <!-- show-methods passed suite-Delta_Airline_Automation_Script -->
+                    </span>
+                    <div class="method-list-content passed suite-Delta_Airline_Automation_Script">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Airline_Automation_Script" title="hometest.Delta_AirlineHomeTest" class="method navigator-link" hash-for-method="testCheckFlightStatus">testCheckFlightStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Airline_Automation_Script" title="hometest.Delta_AirlineHomeTest" class="method navigator-link" hash-for-method="testCheckNotifications">testCheckNotifications</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Airline_Automation_Script" title="hometest.Delta_AirlineHomeTest" class="method navigator-link" hash-for-method="testDeltaCarriersSearchPage">testDeltaCarriersSearchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Airline_Automation_Script" title="hometest.Delta_AirlineHomeTest" class="method navigator-link" hash-for-method="testGetTextFromWebElements">testGetTextFromWebElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Airline_Automation_Script" title="hometest.Delta_AirlineHomeTest" class="method navigator-link" hash-for-method="testHandleAlertPage">testHandleAlertPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Airline_Automation_Script" title="hometest.Delta_AirlineHomeTest" class="method navigator-link" hash-for-method="testReadDeltaLogoImage">testReadDeltaLogoImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Airline_Automation_Script" title="hometest.Delta_AirlineHomeTest" class="method navigator-link" hash-for-method="testSearchButton">testSearchButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Airline_Automation_Script" title="hometest.Delta_AirlineHomeTest" class="method navigator-link" hash-for-method="testUseCheckBoxButton">testUseCheckBoxButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Airline_Automation_Script" title="hometest.Delta_AirlineHomeTest" class="method navigator-link" hash-for-method="testUseMouseHover">testUseMouseHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Delta_Airline_Automation_Script -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Delta_Airline_Automation_Script" class="panel Delta_Airline_Automation_Script">
+          <div class="suite-Delta_Airline_Automation_Script-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">hometest.Delta_AirlineHomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScrollDown">
+                  </a> <!-- testScrollDown -->
+                  <span class="method-name">testScrollDown</span>
+                  <div class="stack-trace">org.openqa.selenium.ScriptTimeoutException: script timeout
+  (Session info: chrome=83.0.4103.97)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;kahinas-MBP.fios-router.home&apos;, ip: &apos;fe80:0:0:0:1487:c375:8184:71ee%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/s2/jkfjw_0s03z...}, goog:chromeOptions: {debuggerAddress: localhost:49770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d47a67ac55f030b8795b32bf2c8a729f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeAsyncScript(RemoteWebDriver.java:506)
+	at homepage.Delta_AirlineHomePage.scrollDown(Delta_AirlineHomePage.java:129)
+	at hometest.Delta_AirlineHomeTest.testScrollDown(Delta_AirlineHomeTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Delta_Airline_Automation_Script-class-failed -->
+          <div class="suite-Delta_Airline_Automation_Script-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">hometest.Delta_AirlineHomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFlightStatus">
+                  </a> <!-- testCheckFlightStatus -->
+                  <span class="method-name">testCheckFlightStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckNotifications">
+                  </a> <!-- testCheckNotifications -->
+                  <span class="method-name">testCheckNotifications</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeltaCarriersSearchPage">
+                  </a> <!-- testDeltaCarriersSearchPage -->
+                  <span class="method-name">testDeltaCarriersSearchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTextFromWebElements">
+                  </a> <!-- testGetTextFromWebElements -->
+                  <span class="method-name">testGetTextFromWebElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHandleAlertPage">
+                  </a> <!-- testHandleAlertPage -->
+                  <span class="method-name">testHandleAlertPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReadDeltaLogoImage">
+                  </a> <!-- testReadDeltaLogoImage -->
+                  <span class="method-name">testReadDeltaLogoImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchButton">
+                  </a> <!-- testSearchButton -->
+                  <span class="method-name">testSearchButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUseCheckBoxButton">
+                  </a> <!-- testUseCheckBoxButton -->
+                  <span class="method-name">testUseCheckBoxButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUseMouseHover">
+                  </a> <!-- testUseMouseHover -->
+                  <span class="method-name">testUseMouseHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Delta_Airline_Automation_Script-class-passed -->
+        </div> <!-- panel Delta_Airline_Automation_Script -->
+        <div panel-name="test-xml-Delta_Airline_Automation_Script" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/kahinaayouni/IdeaProjects/PracticeMaven/Delta_Airline/target/test-classes/Delta_AirlineTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Delta_Airline Automation Script&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;Catalina&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;83&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.delta.com/&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Delta_AirlineHomePage&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;hometest.Delta_AirlineHomeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Delta_AirlineHomePage --&gt;
+&lt;/suite&gt; &lt;!-- Delta_Airline Automation Script --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Delta_Airline_Automation_Script" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Delta_Airline Automation Script</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Delta_AirlineHomePage (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Delta_Airline_Automation_Script" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Delta_Airline Automation Script</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Delta_Airline_Automation_Script" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Delta_Airline Automation Script</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Delta_Airline_Automation_Script');
+function tableData_Delta_Airline_Automation_Script() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testScrollDown')
+data.setCell(0, 2, 'hometest.Delta_AirlineHomeTest')
+data.setCell(0, 3, 32316);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGetTextFromWebElements')
+data.setCell(1, 2, 'hometest.Delta_AirlineHomeTest')
+data.setCell(1, 3, 10499);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCheckFlightStatus')
+data.setCell(2, 2, 'hometest.Delta_AirlineHomeTest')
+data.setCell(2, 3, 5201);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testUseMouseHover')
+data.setCell(3, 2, 'hometest.Delta_AirlineHomeTest')
+data.setCell(3, 3, 4987);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCheckNotifications')
+data.setCell(4, 2, 'hometest.Delta_AirlineHomeTest')
+data.setCell(4, 3, 3774);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDeltaCarriersSearchPage')
+data.setCell(5, 2, 'hometest.Delta_AirlineHomeTest')
+data.setCell(5, 3, 3207);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSearchButton')
+data.setCell(6, 2, 'hometest.Delta_AirlineHomeTest')
+data.setCell(6, 3, 3038);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testUseCheckBoxButton')
+data.setCell(7, 2, 'hometest.Delta_AirlineHomeTest')
+data.setCell(7, 3, 2998);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testHandleAlertPage')
+data.setCell(8, 2, 'hometest.Delta_AirlineHomeTest')
+data.setCell(8, 3, 1159);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testReadDeltaLogoImage')
+data.setCell(9, 2, 'hometest.Delta_AirlineHomeTest')
+data.setCell(9, 3, 1138);
+window.suiteTableData['Delta_Airline_Automation_Script']= { tableData: data, tableDiv: 'times-div-Delta_Airline_Automation_Script'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Delta_Airline_Automation_Script">
+              </div> <!-- times-div-Delta_Airline_Automation_Script -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Delta_Airline_Automation_Script" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Delta_Airline Automation Script</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Delta_Airline_Automation_Script" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Delta_Airline_Automation_Script" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">hometest.Delta_AirlineHomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@36cc9385)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Catalina, chrome, 83, https://www.delta.com/)</span>
+                <span class="method-start">169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void hometest.Delta_AirlineHomeTest.testDeltaCarriersSearchPage() throws java.lang.Interrupte...)</span>
+                <span class="method-start">2980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeltaCarriersSearchPage</span>
+                <span class="method-start">2984 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testDeltaCarriersSearchPage status=SUCCESS method=Delta_AirlineHomeTest.testDeltaCa...)</span>
+                <span class="method-start">6193 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">6511 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Catalina, chrome, 83, https://www.delta.com/)</span>
+                <span class="method-start">6514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void hometest.Delta_AirlineHomeTest.testCheckNotifications() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">8855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckNotifications</span>
+                <span class="method-start">8855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testCheckNotifications status=SUCCESS method=Delta_AirlineHomeTest.testCheckNotific...)</span>
+                <span class="method-start">12629 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">12763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Catalina, chrome, 83, https://www.delta.com/)</span>
+                <span class="method-start">12764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void hometest.Delta_AirlineHomeTest.testCheckFlightStatus() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">14815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFlightStatus</span>
+                <span class="method-start">14815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testCheckFlightStatus status=SUCCESS method=Delta_AirlineHomeTest.testCheckFlightSt...)</span>
+                <span class="method-start">20016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">20137 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Catalina, chrome, 83, https://www.delta.com/)</span>
+                <span class="method-start">20138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void hometest.Delta_AirlineHomeTest.testSearchButton() throws java.lang.InterruptedException)</span>
+                <span class="method-start">22355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchButton</span>
+                <span class="method-start">22355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchButton status=SUCCESS method=Delta_AirlineHomeTest.testSearchButton()[pri...)</span>
+                <span class="method-start">25393 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">25510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Catalina, chrome, 83, https://www.delta.com/)</span>
+                <span class="method-start">25510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void hometest.Delta_AirlineHomeTest.testScrollDown() throws java.lang.InterruptedException)</span>
+                <span class="method-start">37627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testScrollDown</span>
+                <span class="method-start">37627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testScrollDown status=FAILURE method=Delta_AirlineHomeTest.testScrollDown()[pri:5, ...)</span>
+                <span class="method-start">69953 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">70583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Catalina, chrome, 83, https://www.delta.com/)</span>
+                <span class="method-start">70584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void hometest.Delta_AirlineHomeTest.testGetTextFromWebElements())</span>
+                <span class="method-start">72689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetTextFromWebElements</span>
+                <span class="method-start">72689 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGetTextFromWebElements status=SUCCESS method=Delta_AirlineHomeTest.testGetTextF...)</span>
+                <span class="method-start">83189 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">83314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Catalina, chrome, 83, https://www.delta.com/)</span>
+                <span class="method-start">83314 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void hometest.Delta_AirlineHomeTest.testUseMouseHover() throws java.lang.InterruptedException)</span>
+                <span class="method-start">85659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUseMouseHover</span>
+                <span class="method-start">85659 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testUseMouseHover status=SUCCESS method=Delta_AirlineHomeTest.testUseMouseHover()[p...)</span>
+                <span class="method-start">90646 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">90769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Catalina, chrome, 83, https://www.delta.com/)</span>
+                <span class="method-start">90770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void hometest.Delta_AirlineHomeTest.testHandleAlertPage())</span>
+                <span class="method-start">92999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHandleAlertPage</span>
+                <span class="method-start">93000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testHandleAlertPage status=SUCCESS method=Delta_AirlineHomeTest.testHandleAlertPage...)</span>
+                <span class="method-start">94160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">94265 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Catalina, chrome, 83, https://www.delta.com/)</span>
+                <span class="method-start">94265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void hometest.Delta_AirlineHomeTest.testUseCheckBoxButton())</span>
+                <span class="method-start">96467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUseCheckBoxButton</span>
+                <span class="method-start">96467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testUseCheckBoxButton status=SUCCESS method=Delta_AirlineHomeTest.testUseCheckBoxBu...)</span>
+                <span class="method-start">99466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">99589 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Catalina, chrome, 83, https://www.delta.com/)</span>
+                <span class="method-start">99590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void hometest.Delta_AirlineHomeTest.testReadDeltaLogoImage())</span>
+                <span class="method-start">101753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testReadDeltaLogoImage</span>
+                <span class="method-start">101753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testReadDeltaLogoImage status=SUCCESS method=Delta_AirlineHomeTest.testReadDeltaLog...)</span>
+                <span class="method-start">102892 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">102933 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">102990 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

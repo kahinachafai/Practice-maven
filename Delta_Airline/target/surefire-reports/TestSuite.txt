@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 103.285 s <<< FAILURE! - in TestSuite
+hometest.Delta_AirlineHomeTest.testScrollDown  Time elapsed: 32.327 s  <<< FAILURE!
+org.openqa.selenium.ScriptTimeoutException: 
+script timeout
+  (Session info: chrome=83.0.4103.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'kahinas-MBP.fios-router.home', ip: 'fe80:0:0:0:1487:c375:8184:71ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/s2/jkfjw_0s03z...}, goog:chromeOptions: {debuggerAddress: localhost:49770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d47a67ac55f030b8795b32bf2c8a729f
+	at hometest.Delta_AirlineHomeTest.testScrollDown(Delta_AirlineHomeTest.java:38)
+
